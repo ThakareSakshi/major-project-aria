@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>major project</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
@@ -19,11 +21,11 @@
         <div class="right-nav">
             <li><a href="#Home">HOME</a></li>
             <li><a href="#intro">INTRO</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">CALL ME </a></li>
-            <li><a href="#">PROJECT</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><div class=""><i class="fa-brands fa-facebook-f icon" style="color: #f7f7f8;"></i><i class="fa-brands fa-twitter icon" style="color: #f0f2f5;"></i></div></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#call-me">CALL ME </a></li>
+            <li><a href="#projects">PROJECT</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><div class=""><i class="fa-brands fa-facebook-f icon" ></i><i class="fa-brands fa-twitter icon" ></i></div></li>
             <li</li>
 
         </div>
@@ -84,7 +86,7 @@
             </div>
         </div>
     </section>
-   <section class="services">
+   <section class="services" id="services">
     <div class="service-head">
         <span class="section-name">SERVICES</span>
     <h2 class="opening-head">Choose The Service Package
@@ -141,44 +143,47 @@
     </div>
 
     <div class="row-1">
-        <div class="col-1"></div>
+        <div class="col-1">
+            <img src="./images/details-1-background.jpg" alt="">
+        </div>
         <div class="col-2">
             <h1  class="opening-head">
                 Accelerate Business Growth To Improve Revenue Numbers
             </h1>
             <div class="list">
-                <li><h3>How Can Aria Help Your Business</h3></li>
-                <li><h3>Great Strategic Business Planning</h3></li>
-                <li><h3>Online Marketing Campaigns</h3></li>
+                <li><span class="round" style="color: var(--primary-color); border-color:var(--primary-color)">1</span ><h3 style="color: var(--primary-color);">How Can Aria Help Your Business</h3></li>
+                <li><span class="round">2</span ><h3>Great Strategic Business Planning</h3></li>
+                <li><span class="round">3</span ><h3>Online Marketing Campaigns</h3></li>
             </div>
         </div>
     </div>
     <div class="row-2">
         <div class="col-1">
            <div class="col-1-head">
-            <div class="item"><h3>bussiness</h3></div>
-            <div class="item"><h3>bussiness</h3></div>
-            <div class="item"><h3>bussiness</h3></div>
+            <div class="item"><span class="material-icons" style="font-size: 23px; color:var(--primary-color);">apps</span><h3 style="color:var(--primary-color);">bussiness</h3></div>
+            <div class="item"><span class="material-icons" style="font-size: 23px; color:rgb(193,202,206);">apps</span><h3>Expertise</h3></div>
+            <div class="item"><span class="material-icons" style="font-size: 23px; color:rgb(193,202,206);">apps</span><h3>quality</h3></div>
            </div>
            <div class="col-1-body">
-            <h3>Business Services For Companies</h3>
+            <h3 class="sub-head">Business Services For Companies</h3>
             <p class="para">Aria provides the most innovative and customized business services in the industry. Our Services section shows how flexible we are for all types of budgets.</p>
-           </div>
+           
            <div class="col-1-progress">
             <p class="para">Business Development 100%</p>
-            <div class="progress"></div>
+            <div class="progress" style="width:100% ;"></div>
            </div>
            <div class="col-1-progress">
-            <p class="para">Business Development 100%</p>
-            <div class="progress"></div>
+            <p class="para">Opportyity Spotting 76%</p>
+            <div class="progress" style="width: 76%;"></div>
            </div>
            <div class="col-1-progress">
-            <p class="para">Business Development 100%</p>
-            <div class="progress"></div>
+            <p class="para">Online Marketing 90%</p>
+            <div class="progress" style="width: 90%;"></div>
            </div>
         </div>
+        </div>
         <div class="col-2">
-
+               <img src="./images/details-2-background.jpg" alt="">
         </div>
     </div>
     <div class="testmonials">
@@ -245,7 +250,7 @@
         </div>
       </div>
    </section>
-   <section class="call-me type1-section">
+   <section class="call-me type1-section" id="call-me">
      <div class="call-me-section">
         <div class="call-details introduction">
             <p class="section-name">CALL ME</p>
@@ -273,13 +278,13 @@
         </div>
      </div>
    </section>
-    <section class="project-section">
+    <section class="project-section" id="projects">
         <div class="project-header">
             <span class="section-name">PROJECTS</span>
             <h2  class="opening-head">Projects That We're Proud Of</h2>
         </div>
         <div class="project-buttons">
-            <button>Show all</button>
+            <button style="color:white; background-color:var(--primary-color);">Show all</button>
             <button>Design </button>
             <button>Develpoment</button>
             <button>marketing</button>
@@ -365,7 +370,7 @@
             </div>
         </div>
     </section>
-    <section class="about-section type1-section">
+    <section class="about-section type1-section" id="about">
         <div class="intro-image-container">
             <img src="./images/about (1).jpg" alt="">
         </div>
@@ -394,7 +399,7 @@
 
         </div>
     </section>
-    <section class="type1-section contact-section ">
+    <section class="type1-section contact-section " id="contact">
         <div class="  contact-info ">
             <span class="section-name">CONTACT</span>
             <h2 class="opening-head">Get In Touch Using The Form</h2>
@@ -414,12 +419,12 @@
             </div>
             <H3  class="">Follow Aria On Social Media</H3>
             <div class="social-icons">
-                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-facebook-f" style="color: #ffffff; font-size: 1.5rem;"></i></div>
-                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-twitter" style="color: #fafcff; font-size: 1.5rem;"></i></div>
-                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-pinterest" style="color: #f0f2f5;font-size: 1.5rem;"></i></div>
-                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-instagram" style="color: #ffffff; font-size: 1.5rem;"></i></div>
-                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-linkedin-in" style="color: #ffffff; font-size: 1.5rem;"></i></div>
-                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-facebook-f" style="color: #ffffff;font-size: 1.5rem;"></i></div>
+                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-facebook-f" style=" font-size: 1.5rem;"></i></div>
+                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-twitter" style=" font-size: 1.5rem;"></i></div>
+                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-pinterest" style="font-size: 1.5rem;"></i></div>
+                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-instagram" style="font-size: 1.5rem;"></i></div>
+                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-linkedin-in" style=" font-size: 1.5rem;"></i></div>
+                <div class="icon" style="width:3rem ;height:3rem;"><i class="fa-brands fa-facebook-f" style="font-size: 1.5rem;"></i></div>
                 
             </div>
         </div>
